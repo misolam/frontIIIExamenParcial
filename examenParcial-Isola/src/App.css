@@ -40,3 +40,34 @@
 .read-the-docs {
   color: #888;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  gap: 1em;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #ccc;
+}
+
+.card {
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin-top: 2em;
+  border-radius: 20px;
+  background-color: #ccc;
+}
+
+.button {
+  background-color: grey;
+  color: black;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
